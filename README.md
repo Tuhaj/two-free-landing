@@ -1,30 +1,69 @@
-# Two free landing page
+# Two Free Landing Page
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/piotr-zientaras-projects/v0-two-free-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HlvgjfaHvOF)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222?style=for-the-badge&logo=github)](https://twofree.pl)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Official landing page for Two Free - an open-source game. This repository contains the source code for the website hosted at [twofree.pl](https://twofree.pl).
 
-## Deployment
+## 🚀 Live Site
 
-Your project is live at:
+Visit the live site at: **[https://twofree.pl](https://twofree.pl)**
 
-**[https://vercel.com/piotr-zientaras-projects/v0-two-free-landing-page](https://vercel.com/piotr-zientaras-projects/v0-two-free-landing-page)**
+## 🛠️ Built With
 
-## Build your app
+- [Next.js 15](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [React Hook Form](https://react-hook-form.com/) - Form handling
+- [Zod](https://zod.dev/) - Schema validation
 
-Continue building your app on:
+## 📦 Installation
 
-**[https://v0.dev/chat/projects/HlvgjfaHvOF](https://v0.dev/chat/projects/HlvgjfaHvOF)**
+1. Clone the repository:
+```bash
+git clone https://github.com/[your-username]/two-free-landing.git
+cd two-free-landing
+```
 
-## How It Works
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+3. Run the development server:
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## 🔧 Available Scripts
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
+
+## 🚀 Deployment
+
+This site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment workflow handles:
+- Building the Next.js static export
+- Publishing to GitHub Pages
+- Custom domain configuration for twofree.pl
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
